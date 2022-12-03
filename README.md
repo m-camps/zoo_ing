@@ -1,5 +1,15 @@
 ﻿# Zoo Java Console Application
 ---
+
+## Run 
+
+In the root of the folder launch:
+```
+	javac -d . .\src\com\ing\zoo\AClass\*.java
+	javac -d . .\src\com\ing\zoo\Animals\*.java
+	java .\src\com\ing\zoo\Zoo.java
+```
+
 ## Git
 
 Voor het maken van deze opdracht wordt er gebruik gemaakt van het versiebeheersysteem Git.
@@ -35,3 +45,4 @@ Bij elke command laat je het resultaat in de console  zien.
 - Als je de [give leaves] command uitvoert krijgen alle herbivores leaves.
 - Als je de [give meat] command uitvoert krijgen alle carnivores meat.
 - Als je de [perform trick] command uitvoert doen alle dieren die dat kunnen hun trucje.
+
