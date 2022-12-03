@@ -7,7 +7,8 @@ In the root of the folder launch:
 ```
 	javac -d . .\src\com\ing\zoo\AClass\*.java
 	javac -d . .\src\com\ing\zoo\Animals\*.java
-	java .\src\com\ing\zoo\Zoo.java
+	javac -d . .\src\com\ing\zoo\Zoo.java
+	java com.ing.zoo.Zoo
 ```
 
 ## Git
